@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Портфолио Лео — начинающего веб-разработчика" />
+  <title>Лео — начинающий веб-разработчик</title>
+  <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <nav class="nav">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="container">
+        <p class="hero__greeting">Привет, я</p>
+        <h1 class="hero__title">Лео</h1>
+        <p class="hero__subtitle">
+          Учусь веб-разработке самостоятельно. Делаю проекты на HTML и CSS,
+          дальше — JavaScript и Python.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">Смотреть проекты</a>
+          <a href="#contacts" class="btn btn--ghost">Связаться</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section__title">Обо мне</h2>
+        <div class="about">
+          <p>
+            Я студент и самостоятельно изучаю веб-разработку. Сейчас уверенно
+            работаю с HTML: семантика, формы, таблицы, списки, медиа и
+            интерактивные элементы. Начал изучать CSS и вёрстку.
+          </p>
+          <p>
+            Дальше в планах — JavaScript, затем Python и проекты, связанные с ИИ.
+            Люблю доводить интерфейсы до аккуратного вида и учиться на реальных
+            задачах, а не только на теории.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Навыки</h2>
+        <div class="skills">
+
+          <div class="skills__group">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML — семантика, формы, таблицы, медиа</li>
+              <li>CSS — база: подключение, цвета, текст</li>
+              <li>Адаптивная вёрстка — в процессе</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Backend</h3>
+            <ul>
+              <li>Python — базовый уровень</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Инструменты</h3>
+            <ul>
+              <li>VS Code</li>
+              <li>Git / GitHub</li>
+            </ul>
+          </div>
+
+          <div class="skills__group">
+            <h3>Сейчас учу</h3>
+            <ul>
+              <li>CSS и вёрстка</li>
+              <li>JavaScript — скоро</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section__title">Проекты</h2>
+        <div class="projects">
+          <article class="project-card">
+            <div class="project-card__image">
+              <span>Скриншот скоро</span>
+            </div>
+            <div class="project-card__body">
+              <h3>Сайт-портфолио</h3>
+              <p>Личный сайт с информацией обо мне, навыками и проектами. Сделан на чистом HTML и CSS.</p>
+              <p class="project-card__stack">HTML · CSS</p>
+              <div class="project-card__links">
+                <a href="#" class="btn btn--small">GitHub</a>
+                <a href="#" class="btn btn--small btn--ghost">Демо</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section--alt">
+      <div class="container">
+        <h2 class="section__title">Контакты</h2>
+        <p class="contacts__text">Открыт к стажировкам, учебным проектам и просто к общению.</p>
+        <div class="contacts__links">
+          <a href="mailto:you@example.com" class="btn btn--primary">Email</a>
+          <a href="https://github.com/USERNAME" class="btn btn--ghost" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 V1ncero. Сделано на HTML и CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
